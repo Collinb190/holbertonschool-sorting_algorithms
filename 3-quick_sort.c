@@ -31,7 +31,7 @@ size_t lomuto_partition(int *array, int low, int high, size_t size)
 	array[i + 1] = array[high];
 	array[high] = temp;
 	print_array(array, size);
-	return(i + 1);
+	return (i + 1);
 }
 /**
  * quick_sort_recursive - Implements the recursive part of Quick Sort

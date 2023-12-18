@@ -40,7 +40,7 @@ void print_list(const listint_t *list);
  */
 void bubble_sort(int *array, size_t size);
 /**
- * insertion_sort_list - Sorts a doubly linked list of integers in ascending order
+ * insertion_sort_list - Sorts a doubly linked list of ints in ascending order
  *                        using the Insertion sort algorithm
  *
  * @list: Pointer to the head of the doubly linked list

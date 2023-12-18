@@ -55,6 +55,12 @@ void insertion_sort_list(listint_t **list);
  */
 void selection_sort(int *array, size_t size);
 /**
+ * swap - swaps two integers
+ * @a: first integer
+ * @b: second integer
+ */
+void swap(int *a, int *b);
+/**
  * lomuto_partition - Implements the Lomuto partition scheme for Quick Sort
  *
  * @array: The array to be partitioned

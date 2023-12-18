@@ -1,0 +1,3 @@
+O(1)     // Best case: Array is already sorted, no swaps needed
+O(n^2)   // Average case: Multiple passes through the array
+O(n^2)   // Worst case: Array is sorted in reverse order, requiring maximum swaps

@@ -39,5 +39,12 @@ void print_list(const listint_t *list);
  * Desctiption: Sorts an array of integers in ascending order using Bubble sort
  */
 void bubble_sort(int *array, size_t size);
+/**
+ * insertion_sort_list - Sorts a doubly linked list of integers in ascending order
+ *                        using the Insertion sort algorithm
+ *
+ * @list: Pointer to the head of the doubly linked list
+ */
+void insertion_sort_list(listint_t **list);
 
 #endif /* SORT_H */

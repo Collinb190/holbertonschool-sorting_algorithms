@@ -54,5 +54,33 @@ void insertion_sort_list(listint_t **list);
  * @size: Number of elements in @array
  */
 void selection_sort(int *array, size_t size);
+/**
+ * lomuto_partition - Implements the Lomuto partition scheme for Quick Sort
+ *
+ * @array: The array to be partitioned
+ * @low: The low index of the partition
+ * @high: The high index of the partition
+ * @size: Number of elements in @array
+ *
+ * Return: The index of the pivot after partitioning
+ */
+size_t lomuto_partition(int *array, int low, int high, size_t size);
+/**
+ * quick_sort_recursive - Implements the recursive part of Quick Sort
+ *
+ * @array: The array to be sorted
+ * @low: The low index of the partition
+ * @high: The high index of the partition
+ * @size: Number of elements in @array
+ */
+void quick_sort_recursive(int *array, int low, int high, size_t size);
+/**
+ * quick_sort - Sorts an array of integers in ascending order
+ *               using the Quick sort algorithm (Lomuto partition scheme)
+ *
+ * @array: The array to be sorted
+ * @size: Number of elements in @array
+ */
+void quick_sort(int *array, size_t size);
 
 #endif /* SORT_H */
